@@ -10,4 +10,9 @@ class SausageTest < Minitest::Test
     assert_instance_of Sausage, chorizo
     assert_equal chorizo.name, 'Chorizo'
   end
+
+  def test_there_are_a_lot_of_sausages
+    sausages = Sausage.all
+    assert sausages.count > 10
+  end
 end
