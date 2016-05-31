@@ -1,8 +1,0 @@
-{
-  "name": "Sausages",
-  "description": "A JSON API for all your favorite sausages",
-  "repository": "https://github.com/joshwlewis/sausages",
-  "env": {
-    "RACK_ENV": "production"
-  }
-}
