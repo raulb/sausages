@@ -1,0 +1,16 @@
+{
+  "name": "sausages",
+  "description": "An API for all your sausages",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+    "bonsai"
+  ],
+  "buildpacks": [
+
+  ]
+}
