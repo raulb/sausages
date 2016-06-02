@@ -1,7 +1,0 @@
-{
-  "name": "sausages",
-  "description": "An API for all your sausages",
-  "env": {
-    "RACK_ENV": "production"
-  }
-}
