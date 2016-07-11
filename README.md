@@ -4,4 +4,4 @@
 
 If you like sausages, this might be the API for you!
 
-woo sausages
+Woo! Sausages are gud!
