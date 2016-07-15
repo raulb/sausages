@@ -1,7 +1,5 @@
 {
   "name": "sausages",
-  "scripts": {
-  },
   "env": {
     "LANG": {
       "required": true
