@@ -4,4 +4,4 @@
 
 If you like sausages, this might be the API for you!
 
-Woo! Sausages are good!
+Woo! Sausages are good! For realz!
