@@ -1,22 +1,7 @@
 {
   "name": "sausages",
   "env": {
-    "LANG": "en_US.UTF-8",
-    "RACK_ENV": "production"
-  },
-  "formation": {
-    "web": {
-      "quantity": 1
-    }
-  },
-  "addons": [
-
-  ],
-  "buildpacks": [
-    {
-      "url": "heroku/ruby"
-    }
-  ],
+    "LANG": "
   "scripts": {
     "test-setup": "bundle install --with test",
     "test": "bundle exec rake"
