@@ -14,5 +14,9 @@
     {
       "url": "heroku/ruby"
     }
-  ]
+  ],
+  "scripts": {
+    "test-setup": "bundle install --with test",
+    "test": "bundle exec rake"
+  }
 }
