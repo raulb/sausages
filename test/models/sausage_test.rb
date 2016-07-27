@@ -13,6 +13,6 @@ class SausageTest < Minitest::Test
 
   def test_there_are_a_lot_of_sausages
     sausages = Sausage.all
-    assert sausages.count > 7
+    assert sausages.count >= 3
   end
 end

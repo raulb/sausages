@@ -1,5 +1,6 @@
 {
   "name": "sausages",
+  "description": "An API for all your favorite sausages",
   "env": {
     "LANG": "en_US.UTF-8",
     "RACK_ENV": "production"
@@ -9,16 +10,9 @@
       "quantity": 1
     }
   },
-  "addons": [
-
-  ],
   "buildpacks": [
     {
       "url": "heroku/ruby"
     }
-  ],
-  "scripts": {
-    "test-setup": "bundle install --with test",
-    "test": "bundle exec rake"
-  }
+  ]
 }
