@@ -3,7 +3,7 @@ SAUSAGE_DATA = [
   { name: "Bratwurst", rating: 9 },
   { name: "Chorizo",   rating: 10 },
   { name: "Hot Dog",   rating: 2 },
-  { name: "Smoked",    rating: 7 }
+  { name: "Smoked",    rating: 5 }
 ]
 
 Sausage = Struct.new(:name, :rating) do
