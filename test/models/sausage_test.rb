@@ -15,4 +15,8 @@ class SausageTest < Minitest::Test
     sausages = Sausage.all
     assert sausages.count >= 3
   end
+  
+  def test_a_is_a
+    assert_equal "wubalub", "a"
+  end
 end
