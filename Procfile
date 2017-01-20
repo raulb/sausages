@@ -1,2 +1,2 @@
 web: bundle exec rackup -p $PORT
-release: sleep 15 && exit 22
+release: sleep 5 && exit 0
