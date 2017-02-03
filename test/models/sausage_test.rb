@@ -17,6 +17,6 @@ class SausageTest < Minitest::Test
   end
   
   def test_a_is_a
-    assert_equal "wubalub", "fub"
+    assert_equal "wubalub", "anything"
   end
 end
