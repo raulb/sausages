@@ -17,8 +17,7 @@
     {
       "plan": "deployhooks:http",
       "options": {
-        "ephemeral": true,
-        "not-a-real-option": true
+        "ephemeral": true
       }
     }
   ]
