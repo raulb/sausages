@@ -12,5 +12,13 @@
   "scripts": {
     "test-setup": "bundle install --with test",
     "test": "bundle exec rake"
-  }
+  },
+  "addons": [
+    {
+      "plan": "deployhooks",
+      "options": {
+        "ephemeral": true
+      }
+    }
+  ]
 }
