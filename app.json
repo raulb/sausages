@@ -15,7 +15,7 @@
   },
   "addons": [
     {
-      "plan": "deployhooks",
+      "plan": "deployhooks:http",
       "options": {
         "ephemeral": true
       }
