@@ -17,7 +17,7 @@
     {
       "plan": "deployhooks:http",
       "options": {
-        "ephemeral: true,
+        "ephemeral": true,
         "url": "https://hooks.slack.com/services/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"
       }
     }  
