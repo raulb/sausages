@@ -15,11 +15,10 @@
   },
   "addons": [
     {
-      "plan": "deployhooks:http",
+      "plan": "heroku-postgresql",
       "options": {
-        "ephemeral": true,
-        "url": "https://hooks.slack.com/services/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"
+        "version": "9.6"
       }
-    }  
+    }
   ]
 }
