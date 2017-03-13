@@ -12,5 +12,13 @@
   "scripts": {
     "test-setup": "bundle install --with test",
     "test": "bundle exec rake"
-  }
+  },
+  "addons": [
+    {
+      "plan": "deployhooks:http",
+      "options": {
+        "url": "https://hooks.slack.com/services/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"
+      }
+    }  
+  ]
 }
