@@ -4,21 +4,10 @@
   "env": {
     "LANG": "en_US.UTF-8"
   },
-  "buildpacks": [
-    {
-      "url": "heroku/ruby"
-    }
-  ],
+  "buildpacks": [],
   "scripts": {
     "test-setup": "bundle install --with test",
     "test": "bundle exec rake"
   },
-  "addons": [
-    {
-      "plan": "heroku-postgresql",
-      "options": {
-        "version": "9.4"
-      }
-    }
-  ]
+  "addons": []
 }
