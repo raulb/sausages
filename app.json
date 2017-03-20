@@ -11,6 +11,9 @@
   ],
   "scripts": {
     "test-setup": "bundle install --with test",
-    "test": "bundle exec rake"
+    "test": "bundle exec rake",
+    "addons":[
+      "heroku-postgresql:hobby-basic"
+    ]
   }
 }
