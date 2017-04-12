@@ -1,6 +1,7 @@
 {
   "name": "sausages",
   "description": "An API for all your favorite sausages",
+  "stack": "heroku-16",
   "env": {
     "LANG": "en_US.UTF-8"
   },
