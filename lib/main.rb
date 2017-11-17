@@ -1,5 +1,7 @@
 require 'json'
 
+puts "Hello World!"
+
 before do
   content_type 'json'
 end
