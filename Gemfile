@@ -3,7 +3,7 @@ source "https://rubygems.org"
 gem 'rake'
 gem 'sinatra'
 
-ibrokethebuildddd
+ibrokethebuild
 
 group :development, :test do
   gem 'minitest'
