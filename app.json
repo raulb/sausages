@@ -11,6 +11,7 @@
   ],
   "scripts": {
     "test-setup": "bundle install --with test",
-    "test": "bundle exec rake"
+    "test": "bundle exec rake",
+    "postdeploy": "bundle exec rake db:schema:load db:seed"
   }
 }
